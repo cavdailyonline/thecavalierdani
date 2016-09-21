@@ -1,4 +1,4 @@
 app.controller('SearchCtrl',
-  ['$scope', function($scope) {
-
+  ['$scope', '$state', function($scope, $state) {
+    $scope.query = $state.params.query;
 }]);
