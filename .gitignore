@@ -1,0 +1,5 @@
+env.json
+logs/dev-error.log
+**/.DS_Store
+node_modules/
+public/
